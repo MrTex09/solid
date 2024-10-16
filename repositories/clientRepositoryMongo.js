@@ -5,6 +5,7 @@ class ClientRepositoryMongo extends IClientRepository {
         super();
         this.clients = [
             { id: 1, name: 'armin', email: 'elquearde318@gmail.com', phone: 2129704133  },
+            { id: 2, name: 'snake', email: 'theEnfantterrible2@gmail.com', phone: 254328545  },
         ]; // Simulando una base de datos
     }
 
